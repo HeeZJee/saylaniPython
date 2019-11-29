@@ -6,6 +6,7 @@ bio = {
 "last_name": "Ghanchi",
 "age": "21",
 "city": "Karachi"}
+
 for x in bio.items():
     print(x)
 print('\n')
@@ -13,4 +14,9 @@ print('\n')
 bio.update({"qualification":"High Academic Level"})
 for x in bio.items():
     print(x)
+print('\n')
 
+bio.pop("qualification")
+for x in bio.items():
+    print(x)
+print('\n')
