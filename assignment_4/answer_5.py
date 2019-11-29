@@ -4,13 +4,17 @@ Write a program which randomly generate a number between 1 to 30 and ask the use
 
 import random
  
-hidden_number = random.randrange(1,30)
+hidden_number = random.randrange(1,2)
 chances = 3
 
 for chance in range(chances):
     guess = int(input("Can you guess a hidden number? \nTake guess: "))
     if hidden_number == guess:
         print("You guessed it! The number was",hidden_number)
+        if chance >= 2:
+            print("Amazing! You did it in last attempt.")
+            break
+        print("With", chances - (chance+1), "turn remaining.")
         break
     elif hidden_number > guess:
         print("Higher")
