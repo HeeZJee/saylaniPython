@@ -20,5 +20,3 @@ bio.pop("qualification")
 for x in bio.items():
     print(x)
 print('\n')
-
-print("Hello")
