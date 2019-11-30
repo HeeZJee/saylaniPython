@@ -2,6 +2,6 @@
 """
 
 def favorite_book(title):
-    print("One of my favorite book is ",title,) 
+    print("One of my favorite book is ",title) 
 
-favorite_book("The Call of the Marching Bell")
+favorite_book("The Call of the Marching Bell (Bang-e-Dara)")
