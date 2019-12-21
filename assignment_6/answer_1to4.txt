@@ -1,0 +1,52 @@
+
+Question 1:
+    Define Object Oriented Programming Language?
+
+
+Answer  1:
+Object Oriented Programming language (OPPs): 
+=}  Object Object Programming Language is a very common Programming  Paradig(style of designing software) that implements objects and their associated procedures within the programming context to create software programs.
+
+____________________________________________________________________________
+
+Question 2:
+    List down the Benefits of OOP?
+
+Answer 2:
+=} Makes software design easy.
+=} Data is safe and secure.
+=} Easy to share.
+=} Code is reusable.
+____________________________________________________________________________
+
+Question 3:
+    Differentiate between function and method?
+
+Answer 3:
+
+Function:
+=}  A function is a block of code to carry out a specific task, will contain its own scope and is called by name. All functions may contain zero(no) arguments or more than one arguments. On exit, a function can or can not return one or more values.
+
+Method:
+=}  A method in python is somewhat similar to a function, except it is associated with object/classes. Methods in python are very similar to functions except for two major differences.
+
+1) The method is implicitly used for an object for which it is called.
+2) The method is accessible to data that is contained within the class. 
+
+____________________________________________________________________________
+
+Question 4:
+    Define the following terms:
+
+Class:
+=}  A class is a blueprint for how an object is built, as well as being a sort of “parent category” for objects. For example, a class dictates the concept of a car—four wheels, an engine, a body, brakes, etc.
+
+Object:
+=}  An object is the core unit of OOP. Objects are uniquely named and represent an instance of a class. Each object houses different states (attributes), and shared behaviors, called methods. For example, a Prius is an object in the class of “cars”.
+
+Attribute:
+=}  Attributes are data stored inside a class or instance and represent the state or quality of the class or 
+instance. In short, attributes store information about the instance. Also, attributes should not be confused with class functions also known as methods. 
+
+Behavior
+=}  The behavior of an object is defined by its methods, which are the functions and subroutines defined within the object class. Without class methods, a class would simply be a structure.
